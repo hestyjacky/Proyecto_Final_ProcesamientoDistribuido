@@ -17,7 +17,7 @@ Este proyecto implementa un sistema para la evaluación integral de documentos m
 
 ## Dataset y Pruebas Realizadas
 
-> **Nota:** Para un dataset base, visita [DATASET](https://platform.openai.com)
+> **Nota:** Para visualizar las muestras, visita el [DATASET](https://drive.google.com/drive/folders/1TxVmm92baRD8lN8etEUXD6Z8Red8JFLu?usp=sharing)
 
 El conjunto de datos experimental consta de:
 * **Muestras:** Alrededor de **550 hojas manuscritas** digitalizadas.
