@@ -1,0 +1,7 @@
+PyQt6
+opencv-python
+numpy
+anthropic
+easyocr
+pytesseract
+pillow
