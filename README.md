@@ -16,7 +16,17 @@ Este proyecto implementa un sistema para la evaluación integral de documentos m
 ---
 
 ## Dataset y Pruebas Realizadas
+### Video de Demostración
 
+> **Nota:** Debido a que el reporte en PDF no permite adjuntar contenido audiovisual, las pruebas de funcionamiento del sistema se documentaron en video. Puedes verlo aquí: [VIDEO DE PRUEBAS](https://drive.google.com/drive/folders/100JibIHd15bNxKfUz2rKOvMu99KwJM7i?usp=sharing)
+
+El video muestra el flujo completo de la aplicación:
+* Carga del manuscrito y del texto de referencia.
+* Transcripción con Claude y score de fidelidad.
+* Detección de cajas con EasyOCR y Tesseract, y edición manual de las mismas.
+* Evaluación ortográfica automática por alineamiento.
+
+  
 > **Nota:** Para visualizar las muestras, visita el [DATASET](https://drive.google.com/drive/folders/1TxVmm92baRD8lN8etEUXD6Z8Red8JFLu?usp=sharing)
 
 El conjunto de datos experimental consta de:
