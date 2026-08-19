@@ -18,7 +18,7 @@ Este proyecto implementa un sistema para la evaluación integral de documentos m
 ## Dataset y Pruebas Realizadas
 ### Video de Demostración
 
-> **Nota:** Debido a que el reporte en PDF no permite adjuntar contenido audiovisual, las pruebas de funcionamiento del sistema se documentaron en video. Puedes verlo aquí: [VIDEO DE PRUEBAS](https://drive.google.com/drive/folders/100JibIHd15bNxKfUz2rKOvMu99KwJM7i?usp=sharing)
+> **Nota:** Las pruebas de funcionamiento del sistema se documentaron en video. Puedes verlo aquí: [VIDEO DE PRUEBAS](https://drive.google.com/drive/folders/100JibIHd15bNxKfUz2rKOvMu99KwJM7i?usp=sharing)
 
 El video muestra el flujo completo de la aplicación:
 * Carga del manuscrito y del texto de referencia.
