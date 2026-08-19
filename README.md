@@ -33,14 +33,17 @@ El conjunto de datos experimental consta de:
 ## Requisitos del Sistema
 
 ### 1. Entorno de Software
-* **Python:** `3.11.9`
-* **Módulos estándar:** `sys`, `os`, `re`, `csv`, `base64`
+* **Módulos estándar:** `sys`, `os`, `re`, `csv`, `base64`, `difflib`
 * **Librerías externas:**
   * `opencv-python` (`cv2`)
   * `numpy`
-  * `openai`
+  * `anthropic`
+  * `easyocr`
+  * `pytesseract`
+  * `pillow`
   * `PyQt6` (`PyQt6.QtCore`, `PyQt6.QtGui`, `PyQt6.QtWidgets`)
-
+ 
+    
 ### 2. Requerimientos de Hardware (Mínimos / Entorno de Prueba)
 El sistema fue ejecutado y validado en el siguiente entorno base:
 * **Equipo:** Huawei MateBook D14 (2021)
@@ -48,3 +51,14 @@ El sistema fue ejecutado y validado en el siguiente entorno base:
 * **Memoria RAM:** 8 GB
 * **Gráficos:** Gráficos integrados (sin GPU dedicada)
 * **Almacenamiento:** 256 GB SSD
+
+### 3. Servicios y Dependencias Externas
+* **API de Anthropic (Claude):**
+  * El módulo de transcripción requiere una cuenta en la [consola de Anthropic](https://console.anthropic.com) y una API key propia.
+  * Se configura mediante la variable de entorno `ANTHROPIC_API_KEY`.
+  * Es un servicio de pago por uso, no incluido en las librerías del entorno base.
+* **Tesseract OCR:**
+  * A diferencia de EasyOCR, Tesseract **no se instala vía pip**:
+  * Se utilizó la distribución de [UB-Mannheim](https://github.com/UB-Mannheim/tesseract/wiki) para Windows.
+  * Requiere el paquete de idioma español (`spa.traineddata`) dentro de su carpeta `tessdata`.
+  * Si el ejecutable no queda en el `PATH` del sistema, se configura mediante las variables de entorno `TESSERACT_CMD` (ruta al ejecutable) y `TESSDATA_PREFIX` (ruta a la carpeta `tessdata`).
