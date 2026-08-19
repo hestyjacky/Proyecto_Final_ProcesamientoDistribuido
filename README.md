@@ -26,7 +26,8 @@ El video muestra el flujo completo de la aplicación:
 * Detección de cajas con EasyOCR y Tesseract, y edición manual de las mismas.
 * Evaluación ortográfica automática por alineamiento.
 
-  
+### Dataset
+
 > **Nota:** Para visualizar las muestras, visita el [DATASET](https://drive.google.com/drive/folders/1TxVmm92baRD8lN8etEUXD6Z8Red8JFLu?usp=sharing)
 
 El conjunto de datos experimental consta de:
